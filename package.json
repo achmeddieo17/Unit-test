@@ -2,7 +2,7 @@
 
   "scripts": {
 
-    "test": "mocha api.test.js"
+    "test": "mocha main.test.js"
 
   },
 

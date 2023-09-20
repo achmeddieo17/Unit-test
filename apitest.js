@@ -12,13 +12,16 @@ module.exports = {
                             todo: { type: 'string'},
                             userId: { type: 'number'},
                             completed: { type: 'boolean'},
+                            isDeleted: {type: 'boolean'},
+                            deletedOn: {type: 'string'},
                         },
-                        required: ['id']
+                        required: ['id','todo']
                     }
                     
                 }
             }
         }
         return todoSchema;
-    }
+    },
+
 }
